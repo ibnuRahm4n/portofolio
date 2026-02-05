@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibnu Rahman | IT Infrastructure & Industrial Solutions</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap');
+        
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+
+        .hero-gradient {
+            background: radial-gradient(circle at 70% 20%, rgba(30, 64, 175, 0.15), transparent),
+                        radial-gradient(circle at 10% 80%, rgba(15, 23, 42, 1), #020617);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .text-gradient {
+            background: linear-gradient(to r, #60a5fa, #fbbf24);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+        .animate-float { animation: float 5s ease-in-out infinite; }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #0f172a; }
+        ::-webkit-scrollbar-thumb { background: #3b82f6; border-radius: 10px; }
+    </style>
+</head>
+
+<body class="bg-slate-950 text-slate-200 antialiased">
+
+    <nav id="navbar" class="fixed w-full z-[100] transition-all duration-500 py-6">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg">I</div>
+                <span class="text-white font-extrabold tracking-tighter text-xl">Ibnu Rahman Hakim Sultan</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-bold text-[11px] uppercase tracking-[0.2em] text-slate-400">
+                <a href="#home" class="hover:text-blue-400 transition">Beranda</a>
+                <a href="#experience" class="hover:text-blue-400 transition">Pengalaman</a>
+                <a href="#project" class="hover:text-blue-400 transition">Proyek</a>
+                <a href="#skills" class="hover:text-blue-400 transition">Keahlian</a>
+            </div>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ibnurahman0909@gmail.com" 
+    target="_blank" 
+    class="bg-white text-slate-950 px-6 py-2.5 rounded-full text-xs font-bold hover:bg-blue-600 hover:text-white transition-all shadow-xl">
+    REKRUT SAYA
+</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-gradient min-h-screen flex items-center relative overflow-hidden">
+        <div class="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center pt-20">
+            <div data-aos="fade-right" data-aos-duration="1000">
+                <div class="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-[10px] font-bold tracking-[0.2em] uppercase mb-4">
+                    <span class="relative flex h-2 w-2">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+                    </span>
+                    <span>Ready to Bridge IT & Industry</span>
+                </div>
+                
+                <h1 class="text-4xl md:text-5xl font-black leading-[1.1] mb-4">
+                    Bridging IT Systems and Industrial Operations <br> <span class="text-gradient font-black">Industrial Operations.</span>
+                </h1>
+            
+                <p class="text-slate-400 text-base md:text-lg max-w-lg leading-relaxed mb-4">
+                    Mahasiswa Sistem Informasi UBSI dengan pengalaman kerja di bidang manufaktur pangan dan teknologi informasi, serta memiliki minat berkarier di industri manufaktur, khususnya pada area Produksi, QC/QA, dan R&D. Berfokus pada pemanfaatan sistem digital untuk meningkatkan efisiensi operasional, akurasi data produksi, serta pengendalian kualitas proses industri.
+                </p>
+                
+                <p class="text-slate-400 text-base md:text-lg max-w-lg leading-relaxed mb-8">
+                    Berfokus pada pemanfaatan sistem digital untuk mendukung pencatatan data produksi, meningkatkan efisiensi operasional, serta membantu proses pengendalian kualitas di lingkungan industri manufaktur.
+                </p>
+            
+                <div class="flex flex-wrap gap-4">
+                    <a href="https://wa.me/6288808153413" class="group bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-2xl font-bold transition-all flex items-center space-x-3">
+                        <span>Hubungi WhatsApp</span>
+                        <i class="fab fa-whatsapp text-xl group-hover:rotate-12 transition-transform"></i>
+                    </a>
+                    <div class="flex items-center space-x-4 px-6 py-4 glass-card rounded-2xl">
+                        <a href="https://www.linkedin.com/in/ibnu-rahman-hakim-sultan" target="_blank" class="text-slate-400 hover:text-white transition">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        
+                        <div class="w-[1px] h-6 bg-slate-700"></div>
+                        
+                        <a href="#" class="text-slate-400 hover:text-white transition">
+                            <i class="fab fa-github text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative flex justify-center" data-aos="zoom-in" data-aos-duration="1200">
+                <div class="absolute -inset-10 bg-blue-600/20 blur-[120px] rounded-full"></div>
+                <div class="relative group">
+                    <div class="absolute -top-6 -right-6 glass-card p-4 rounded-2xl z-30 animate-float">
+                        <p class="text-[10px] text-amber-400 font-bold uppercase tracking-widest">Experience</p>
+                        <p class="text-sm font-bold text-white">PT. JICT - Dept ICT</p>
+                    </div>
+                    
+                    <div class="relative w-72 h-72 md:w-[400px] md:h-[400px] rounded-[3rem] overflow-hidden border-4 border-slate-800 shadow-2xl rotate-3 group-hover:rotate-0 transition-all duration-700">
+                        <img src="foto.png" alt="Ibnu Rahman" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
+                    </div>
+
+                    <div class="absolute -bottom-6 -left-6 glass-card p-4 rounded-2xl z-30 animate-float" style="animation-delay: 2s;">
+                        <p class="text-[10px] text-blue-400 font-bold uppercase tracking-widest">Industry</p>
+                        <p class="text-sm font-bold text-white">PT. Multirasa Nusantara</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-32 bg-slate-900/30">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20" data-aos="fade-up" data-aos-duration="1000">
+                <h3 class="text-4xl font-black text-white italic">Work Experience</h3>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
+            </div>
+    
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
+                <div class="glass-card p-8 rounded-[2.5rem] hover:border-blue-500/50 transition-all duration-500 flex flex-col group hover:-translate-y-4 shadow-xl hover:shadow-blue-500/10" 
+                     data-aos="fade-up" 
+                     data-aos-delay="100"
+                     data-aos-duration="1000">
+                    <div class="flex justify-between items-start mb-6">
+                        <div>
+                            <h4 class="text-xl font-bold text-white italic leading-tight group-hover:text-blue-400 transition-colors">Staff ICT (Voice and Communications)</h4>
+                            <p class="text-blue-400 font-bold uppercase text-[10px] tracking-widest mt-1">PT. Jakarta International Container Terminal</p>
+                            <p class="text-white-400 font-bold uppercase text-[10px] tracking-widest mt-1">Oktober 2025 – Desember 2025</p>
+                        </div>
+                        <div class="w-12 h-12 bg-blue-500/10 rounded-2xl flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-all duration-500 shadow-lg">
+                            <i class="fas fa-headset text-xl"></i>
+                        </div>
+                    </div>
+                    <div class="mb-6 flex-grow">
+                        <p class="text-white font-bold text-xs mb-3 uppercase tracking-tighter opacity-70">Jobdesk:</p>
+                        <ul class="text-slate-400 text-[13px] space-y-3">
+                            <li class="flex items-start group-hover:text-slate-200 transition-colors"><i class="fas fa-caret-right text-blue-500 mr-2 mt-1"></i> Maintenance sistem komunikasi suara (Radio Trunking & IP Phone) internal pelabuhan.</li>
+                            <li class="flex items-start group-hover:text-slate-200 transition-colors"><i class="fas fa-caret-right text-blue-500 mr-2 mt-1"></i> Mendevelop Digital Log System berbasis web untuk pelaporan kerusakan hardware.</li>
+                            <li class="flex items-start group-hover:text-slate-200 transition-colors"><i class="fas fa-caret-right text-blue-500 mr-2 mt-1"></i> Monitoring Database operasional dan integrasi sistem pelaporan vendor.</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-white/5">
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2 py-1 bg-blue-600/10 text-blue-400 rounded-lg border border-blue-500/20 text-[9px] font-bold uppercase tracking-tighter">Voice Systems</span>
+                            <span class="px-2 py-1 bg-blue-600/10 text-blue-400 rounded-lg border border-blue-500/20 text-[9px] font-bold uppercase tracking-tighter">Oracle DB</span>
+                            <span class="px-2 py-1 bg-blue-600/10 text-blue-400 rounded-lg border border-blue-500/20 text-[9px] font-bold uppercase tracking-tighter">SQL</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="glass-card p-8 rounded-[2.5rem] hover:border-amber-500/50 transition-all duration-500 flex flex-col group hover:-translate-y-4 shadow-xl hover:shadow-amber-500/10" 
+                     data-aos="fade-up" 
+                     data-aos-delay="300"
+                     data-aos-duration="1000">
+                    <div class="flex justify-between items-start mb-6">
+                        <div>
+                            <h4 class="text-xl font-bold text-white italic leading-tight group-hover:text-amber-500 transition-colors">Admin Produksi</h4>
+                            <p class="text-amber-500 font-bold uppercase text-[10px] tracking-widest mt-1">PT. Multirasa Nusantara (Yoshinoya)</p>
+                            <p class="text-white-400 font-bold uppercase text-[10px] tracking-widest mt-1">Oktober 2024 – Juli 2025</p>
+                        </div>
+                        <div class="w-12 h-12 bg-amber-500/10 rounded-2xl flex items-center justify-center group-hover:bg-amber-500 group-hover:text-white transition-all duration-500 shadow-lg">
+                            <i class="fas fa-file-invoice text-xl"></i>
+                        </div>
+                    </div>
+                    <div class="mb-6 flex-grow">
+                        <p class="text-white font-bold text-xs mb-3 uppercase tracking-tighter opacity-70">Jobdesk:</p>
+                        <ul class="text-slate-400 text-[13px] space-y-3">
+                            <li class="flex items-start group-hover:text-slate-200 transition-colors"><i class="fas fa-caret-right text-amber-500 mr-2 mt-1"></i> Inputted and managed daily production reports in a structured manner.</li>
+                            <li class="flex items-start group-hover:text-slate-200 transition-colors"><i class="fas fa-caret-right text-amber-500 mr-2 mt-1"></i> Prepared repair referral letters for damaged units or equipment.</li>
+                            <li class="flex items-start group-hover:text-slate-200 transition-colors"><i class="fas fa-caret-right text-amber-500 mr-2 mt-1"></i> Inputted raw material order requests for production needs.</li>
+                            <li class="flex items-start group-hover:text-slate-200 transition-colors"><i class="fas fa-caret-right text-amber-500 mr-2 mt-1"></i> Managed employee administration, including leave and medical certificates.</li>
+                            <li class="flex items-start group-hover:text-slate-200 transition-colors"><i class="fas fa-caret-right text-amber-500 mr-2 mt-1"></i> Maintained data neatness, accuracy, and proper report filing.</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-white/5">
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2 py-1 bg-amber-500/10 text-amber-500 rounded-lg border border-amber-500/20 text-[9px] font-bold uppercase tracking-tighter">internal application</span>
+                            <span class="px-2 py-1 bg-amber-500/10 text-amber-500 rounded-lg border border-amber-500/20 text-[9px] font-bold uppercase tracking-tighter">Excel</span>
+                            <span class="px-2 py-1 bg-amber-500/10 text-amber-500 rounded-lg border border-amber-500/20 text-[9px] font-bold uppercase tracking-tighter">word</span>
+                            <span class="px-2 py-1 bg-amber-500/10 text-amber-500 rounded-lg border border-amber-500/20 text-[9px] font-bold uppercase tracking-tighter">powerpoint</span>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="glass-card p-8 rounded-[2.5rem] hover:border-emerald-500/50 transition-all duration-500 flex flex-col group hover:-translate-y-4 shadow-xl hover:shadow-emerald-500/10" 
+                     data-aos="fade-up" 
+                     data-aos-delay="500"
+                     data-aos-duration="1000">
+                    <div class="flex justify-between items-start mb-6">
+                        <div>
+                            <h4 class="text-xl font-bold text-white italic leading-tight group-hover:text-emerald-400 transition-colors">Operator Produksi</h4>
+                            <p class="text-emerald-500 font-bold uppercase text-[10px] tracking-widest mt-1">PT. Multirasa Nusantara (Yoshinoya)</p>
+                            <p class="text-white-400 font-bold uppercase text-[10px] tracking-widest mt-1">Januari 2022 – Oktober 2024</p>
+                        </div>
+                        <div class="w-12 h-12 bg-emerald-500/10 rounded-2xl flex items-center justify-center group-hover:bg-emerald-500 group-hover:text-white transition-all duration-500 shadow-lg">
+                            <i class="fas fa-box-open text-xl"></i>
+                        </div>
+                    </div>
+                    <div class="mb-6 flex-grow">
+                        <p class="text-white font-bold text-xs mb-3 uppercase tracking-tighter opacity-70">Jobdesk:</p>
+                        <ul class="text-slate-400 text-[13px] space-y-3">
+                            <li class="flex items-start group-hover:text-slate-200 transition-colors"><i class="fas fa-caret-right text-emerald-500 mr-2 mt-1"></i> Operated production machines, including beef processing, breading, steamer, mixing bowl cutter, and vacuum packaging equipment.</li>
+                            <li class="flex items-start group-hover:text-slate-200 transition-colors"><i class="fas fa-caret-right text-emerald-500 mr-2 mt-1"></i> Carried out production processes in accordance with targets and SOP, SAP, and K3 standards.</li>
+                            <li class="flex items-start group-hover:text-slate-200 transition-colors"><i class="fas fa-caret-right text-emerald-500 mr-2 mt-1"></i> Maintained product quality, cleanliness, and safety throughout the production process.</li>
+                            <li class="flex items-start group-hover:text-slate-200 transition-colors"><i class="fas fa-caret-right text-emerald-500 mr-2 mt-1"></i> Controlled raw material usage and performed product packaging.</li>
+                            <li class="flex items-start group-hover:text-slate-200 transition-colors"><i class="fas fa-caret-right text-emerald-500 mr-2 mt-1"></i> Reported production issues or machine breakdowns to the relevant supervisor.</li>
+                        </ul>
+                    </div>
+                    <div class="pt-4 border-t border-white/5">
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2 py-1 bg-emerald-500/10 text-emerald-400 rounded-lg border border-emerald-500/20 text-[9px] font-bold uppercase tracking-tighter">Production machine operation</span>
+                            <span class="px-2 py-1 bg-emerald-500/10 text-emerald-400 rounded-lg border border-emerald-500/20 text-[9px] font-bold uppercase tracking-tighter">SOP, SAP, and K3 compliance</span>
+                            <span class="px-2 py-1 bg-emerald-500/10 text-emerald-400 rounded-lg border border-emerald-500/20 text-[9px] font-bold uppercase tracking-tighter">Quality, hygiene, and safety awareness</span>
+                            <span class="px-2 py-1 bg-emerald-500/10 text-emerald-400 rounded-lg border border-emerald-500/20 text-[9px] font-bold uppercase tracking-tighter">Raw material control and product packaging</span>
+                            <span class="px-2 py-1 bg-emerald-500/10 text-emerald-400 rounded-lg border border-emerald-500/20 text-[9px] font-bold uppercase tracking-tighter">Teamwork and ability to work independently</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project" class="py-32 bg-slate-900/50">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+                <div data-aos="fade-up">
+                    <h2 class="text-blue-500 font-bold tracking-[0.3em] uppercase text-xs mb-4">Featured Project</h2>
+                    <h3 class="text-4xl font-black text-white italic">Digital Log System</h3>
+                </div>
+                <p class="text-slate-400 max-w-md text-sm" data-aos="fade-up" data-aos-delay="100">
+                    Transformasi pelaporan kerusakan manual menjadi sistem berbasis web yang meningkatkan kecepatan respon perbaikan vendor<br>
+                    di PT. Jakarta International Container Terminal.
+                </p>
+                
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="group relative rounded-3xl overflow-hidden border border-slate-800" data-aos="fade-up">
+                    <img src="foto2.jpeg" class="w-full aspect-video object-cover opacity-50 group-hover:opacity-80 transition-all duration-700 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent p-8 flex flex-col justify-end">
+                        <span class="text-amber-500 font-bold text-xs tracking-widest uppercase mb-2">Interface</span>
+                        <h4 class="text-xl font-bold text-white">Final Project Presentation</h4>
+                    </div>
+                </div>
+                <div class="group relative rounded-3xl overflow-hidden border border-slate-800" data-aos="fade-up" data-aos-delay="200">
+                    <img src="foto3.jpeg" class="w-full aspect-video object-cover opacity-50 group-hover:opacity-80 transition-all duration-700 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent p-8 flex flex-col justify-end">
+                        <span class="text-blue-500 font-bold text-xs tracking-widest uppercase mb-2">Monitoring</span>
+                        <h4 class="text-xl font-bold text-white">Real-Time Tracker</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-32 bg-slate-950">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20" data-aos="fade-up">
+                <h3 class="text-4xl font-black text-white mb-4 italic">Core Competencies</h3>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass-card p-10 rounded-[2.5rem] hover:border-blue-500/50 transition-all group" data-aos="fade-up">
+                    <div class="w-14 h-14 bg-blue-600/20 rounded-2xl flex items-center justify-center text-blue-500 mb-8 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                        <i class="fas fa-microchip text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-4">IT System</h4>
+                    <ul class="space-y-4 text-slate-400 text-sm italic">
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-blue-500"></i> Developing internal web-based reporting systems to improve data recording and reporting efficiency</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-blue-500"></i> Documenting system architecture and application workflows</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-blue-500"></i> Managing data using SQL and Oracle databases</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-blue-500"></i> Understanding business processes and operational systems</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-blue-500"></i> Analyzing user requirements for targeted system development</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-blue-500"></i> Maintaining, troubleshooting, and optimizing internal web applications</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-blue-500"></i> Integrating systems with operational workflows and management reporting</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-blue-500"></i> Testing and validating systems to ensure data quality and security</li>
+                    </ul>
+                </div>
+
+                <div class="glass-card p-10 rounded-[2.5rem] hover:border-amber-500/50 transition-all group" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-14 h-14 bg-amber-500/20 rounded-2xl flex items-center justify-center text-amber-500 mb-8 group-hover:bg-amber-500 group-hover:text-white transition-all">
+                        <i class="fas fa-industry text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-4">Industrial Manufaktur</h4>
+                    <ul class="space-y-4 text-slate-400 text-sm italic">
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-amber-500"></i> Processing and recapitulating production reports, managing document filing, and employee administration</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-amber-500"></i> Performing data entry and validation while ensuring report accuracy</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-amber-500"></i> Basic understanding of Quality Control (QC) principles</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-amber-500"></i> Implementing SOP, SAP, and K3 (Occupational Health & Safety) standards in manufacturing</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-amber-500"></i> Controlling the usage of production raw materials</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-amber-500"></i> Monitoring production processes to achieve targets, quality standards, and operational efficiency</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-amber-500"></i> Able to work independently and collaboratively within a team</li>
+                    </ul>
+                </div>
+
+                <div class="glass-card p-10 rounded-[2.5rem] hover:border-emerald-500/50 transition-all group" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-14 h-14 bg-emerald-500/20 rounded-2xl flex items-center justify-center text-emerald-500 mb-8 group-hover:bg-emerald-500 group-hover:text-white transition-all">
+                        <i class="fas fa-user-shield text-2xl"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-4">Soft Skills</h4>
+                    <ul class="space-y-4 text-slate-400 text-sm italic">
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-emerald-500"></i> Analytical Thinking</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-emerald-500"></i> Adaptive Problem Solver</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-emerald-500"></i> Detail Oriented</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-emerald-500"></i> Disciplined and compliant with SOP</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-emerald-500"></i> Responsible and consistent</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-emerald-500"></i> Effective cross-team and vendor communication</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-emerald-500"></i> Good time management</li>
+                        <li class="flex items-center"><i class="fas fa-chevron-right text-[10px] mr-3 text-emerald-500"></i> Able to work independently and collaboratively in a team</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 py-20 border-t border-slate-800">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-3xl font-black text-white mb-10 italic">Let's build the future of industry.</h3>
+            <div class="flex flex-col md:flex-row justify-between items-center pt-10 border-t border-slate-800 gap-6">
+                <p class="text-slate-500 text-[10px] font-bold uppercase tracking-[0.3em]">© 2026 IBNU RAHMAN HAKIM SULTAN</p>
+                <div class="flex space-x-8 text-slate-400">
+                    <a href="mailto:ibnurahman0909@gmail.com" class="hover:text-white transition text-sm">Email</a>
+                    <a href="#" class="hover:text-white transition text-sm">LinkedIn</a>
+                    <a href="#" class="hover:text-white transition text-sm">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize AOS
+        AOS.init({ once: true });
+
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', function() {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('bg-slate-950/80', 'backdrop-blur-xl', 'py-4', 'border-b', 'border-slate-800');
+                nav.classList.remove('py-6');
+            } else {
+                nav.classList.remove('bg-slate-950/80', 'backdrop-blur-xl', 'py-4', 'border-b', 'border-slate-800');
+                nav.classList.add('py-6');
+            }
+        });
+    </script>
+</body>
+</html>
